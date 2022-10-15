@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+   padding: 5vh 20vw;
+  column-gap: 2rem;
+  row-gap: 1rem;
+
+  & a {
+    display: block;
+
+    &:not(:hover) {
+      text-decoration: none;
+    }
+  }
+}
+
+.navbar-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+
+  & [aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
