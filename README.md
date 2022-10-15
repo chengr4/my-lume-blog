@@ -2,6 +2,8 @@
 
 `_config.ts`: load the plugin
 
+Run: `deno task serve`
+
 ## References
 
 1. https://lume.land/
