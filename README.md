@@ -4,7 +4,8 @@
 
 `_config.ts`: load the plugin
 
-Run: `deno task serve`
+- Run: `deno task serve`
+- Upgrade Lume: `deno task lume upgrade`
 
 ## References
 
